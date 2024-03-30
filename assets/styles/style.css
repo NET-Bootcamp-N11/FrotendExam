@@ -387,6 +387,99 @@ header {
   border-color: #E6BFFF;
 }
 
-.items-section .item-texts{
+.items-section .item-texts h3{
+  font-size: 60px;
+  line-height: 70.4px;
+  letter-spacing: 1.28px;
   
+}
+.items-section .item-texts p{
+  width: 306px;
+  height: 108px;
+  font-size: 24px;
+  line-height: 36px;
+}
+.items-section .item-texts{
+  padding-top: 100px;
+}
+
+.items-section .item-cards{
+  padding-top: 100px;
+}
+
+.mur-luma-header{
+  margin: 0 auto;
+  padding: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.mur-luma-title{
+  margin-top: 72px;
+}
+.mur-luma-title h6{
+  font-size: 24px;
+  line-height: 36px;
+  width: 620px;
+  height: 108px;
+}
+.mur-luma-title p{
+  padding-top: 0 auto;
+  font-size: 17px;
+  line-height: 23.4px;
+  width: 276px;
+  height: 24px;
+  border-bottom: #B4F5C8 solid 3px;
+}
+.mur-luma-main h3{
+  font-size: 39px;
+  line-height: 52px;
+  letter-spacing: 1.2px;
+}
+
+.mur-luma-main{
+  padding-top: 65px;
+  gap: 90px;
+  
+}
+.mur-luma-main .mur-luma-main-table .table-item {
+  display: flex;
+  gap: 160px;
+  padding-top: 15px;
+  border-top: #000000 solid 1px;
+}
+.mur-luma-main .mur-luma-main-table .table-item p{
+  font-size: 20px;
+  line-height: 30px;
+}
+.mur-luma-main .mur-luma-main-table .table-item h5{
+  font-size: 29px;
+  line-height: 35.2px;
+  letter-spacing: 0.96px;
+  width: 119.443px;
+}
+.mur-luma-main .mur-luma-main-table .table-item:nth-child(2) p{
+  padding-left: 40px;
+}
+
+.mur-luma-main .mur-luma-main-table .table-item:nth-child(3) p{
+  padding-left: 52px;
+}
+
+.mur-luma-main .mur-luma-main-table a{
+  background-color: #B4F5C8;
+  width: 345px;
+  height: 48px;
+  border-radius: 4px;
+}
+
+.mur-luma-main .mur-luma-main-table .icon-div-tb{
+  background-color: #00C27A;
+  width: 48px;
+  height: 48px;
+  border-radius: 4px;
+}
+.mur-luma-main-table a p{
+  padding-left: 35px;
+  padding-top: 13px;
 }
