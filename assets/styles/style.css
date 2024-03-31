@@ -576,3 +576,8 @@ header {
   border-left: #000000 solid 40px;
   background: #ffe146;
 }
+
+.footer-links{
+  display: flex;
+  justify-content: space-between;
+}
