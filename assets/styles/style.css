@@ -544,7 +544,7 @@ header {
   gap: 0px;
   opacity: 0px;
 }
-.big-btn-section .container{
+.big-btn-section .container {
   height: 886px;
   display: flex;
   align-items: center;
@@ -577,7 +577,36 @@ header {
   background: #ffe146;
 }
 
-.footer-links{
+.footer-links {
   display: flex;
   justify-content: space-between;
+}
+footer {
+  background: #ededdb;
+  height: 600px;
+}
+.footer-ft {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  gap: 100px;
+  padding-top: 70px;
+}
+footer .container {
+  height: 600px;
+}
+footer .footer {
+  height: 600px;
+}
+
+.footer-links{
+  font-size: 16px;
+  line-height: 28px;
+}
+.footer-links ul li h4{
+  padding-bottom: 20px;
+}
+
+.footer-links {
+  padding-top: 60px;
 }
