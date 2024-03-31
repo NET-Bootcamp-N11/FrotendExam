@@ -19,7 +19,6 @@
   font-family: Roboto;
   margin-bottom: 0px;
 }
-
 .container a {
   text-decoration: none;
   color: black;
@@ -33,7 +32,6 @@
   color: white !important;
   width: 202px !important;
 }
-
 .header {
   padding: 20px 0;
   width: 100%;
@@ -46,7 +44,6 @@ header {
   background-color: white;
   align-items: center;
 }
-
 .site-main {
   margin-top: 120px;
   width: 100%;
@@ -59,12 +56,10 @@ header {
   margin: 0px 0px 0px 0px;
   background-repeat: no-repeat;
 }
-
 .guesswork h1 {
   margin-top: 202px;
   font-size: 51px;
 }
-
 .guesswork p {
   font-size: 22px;
   margin-top: 58px;
@@ -75,7 +70,6 @@ header {
   height: 48px;
   border-radius: 4px;
 }
-
 .guesswork a p {
   text-align: center;
   display: flex;
@@ -83,7 +77,6 @@ header {
   font-size: 17px;
   margin: 0px 8px 0px 25px;
 }
-
 .guesswork a {
   width: 237px;
   margin-top: 65px;
@@ -91,7 +84,6 @@ header {
   background-color: #ffcee0;
   border-radius: 4px;
 }
-
 .black-text-section {
   background-color: #000000;
   height: 416px;
@@ -107,13 +99,11 @@ header {
   padding-top: 70px;
   color: #ffffff;
 }
-
 .change-section {
   background: #5887ff;
   padding: 40px;
   margin: 0px 0px 0px 0px;
 }
-
 .change-section .container .title {
   font-size: 70px;
   font-family: Roboto;
@@ -121,7 +111,6 @@ header {
   width: 688px;
   height: 93px;
 }
-
 .center .image img {
   height: 626px;
 }
@@ -131,7 +120,6 @@ header {
   font-size: 24px;
   line-height: 36px;
 }
-
 .change-section .center {
   margin-top: 70px;
   margin-bottom: 75px;
@@ -143,7 +131,6 @@ header {
   font-size: 17px;
   margin: 0px 8px 0px 25px;
 }
-
 .btn-swipe {
   width: 237px;
   margin-top: 65px;
@@ -159,7 +146,6 @@ header {
   height: 36px;
   margin-bottom: 0px;
 }
-
 .come-section .container .title {
   font-size: 30px;
   line-height: 35.2px;
@@ -169,7 +155,6 @@ header {
   height: 36px;
   margin-top: 60px;
 }
-
 .come-section .container .title p {
   margin-bottom: 0px;
 }
@@ -180,7 +165,6 @@ header {
 .come-section .container {
   padding-top: 1px;
 }
-
 .come-section {
   height: 1450px;
 }
@@ -200,7 +184,6 @@ header {
   color: #000000;
   padding: 15px 0 15px 0;
 }
-
 .come-section .come-body .text {
   border-bottom: #000000 5px solid;
   margin-top: 45px;
@@ -217,7 +200,6 @@ header {
   color: #000000;
   padding: 15px 0 15px 0;
 }
-
 .btn-swipe-come {
   width: 237px;
   margin-top: 0px;
@@ -227,19 +209,16 @@ header {
   text-decoration: none;
   color: #000000;
 }
-
 .come-footer .btn-swipe-come .icon-div {
   background-color: #ffaa00;
   width: 48px;
   height: 48px;
   border-radius: 4px;
 }
-
 .come-footer .btn-swipe-come p {
   padding-top: 11px;
   padding-left: 27px;
 }
-
 .come-section .come-body .come-content .img-content .text-box {
   background-color: #000000;
   color: #fff;
@@ -249,7 +228,6 @@ header {
   width: 445px;
   height: 447px;
 }
-
 .come-section .come-body .come-content .img-content {
   border-bottom: #000000 5px solid;
   padding-bottom: 40px;
@@ -264,12 +242,10 @@ header {
   margin-bottom: 26px;
   font-size: 32px;
 }
-
 .come-section .come-body .come-content .img-content .text-box p {
   font-size: 20px;
   margin-left: 80px;
 }
-
 .come-section .come-body .come-content .img-content .text-box a {
   color: #fff;
   margin-left: 80px;
@@ -278,7 +254,6 @@ header {
   font-size: 17px;
   border-bottom: #ffed87 3px solid;
 }
-
 .come-footer {
   margin-top: 50px;
 }
@@ -286,7 +261,6 @@ header {
   font-size: 19px;
   line-height: 30px;
 }
-
 .desk-section .desk-left {
   left: 0px;
 }
@@ -309,7 +283,6 @@ header {
   padding-top: 57px;
   width: 100%;
 }
-
 .desk-section .desk-right .desk-right-btm .img-desc h6 {
   font-size: 20px;
 }
@@ -330,7 +303,6 @@ header {
   margin-right: 50px;
   letter-spacing: 0.96px;
 }
-
 .ibm {
   margin-top: 128px;
   margin-left: 130px;
@@ -352,7 +324,6 @@ header {
 .desk-left {
   width: 50%;
 }
-
 .items-section {
   height: 95vh;
   background-color: #ededdb;
@@ -368,7 +339,6 @@ header {
 .item-cards .mycard {
   text-align: center;
 }
-
 .mycard:nth-child(1) p {
   border-color: #bed7ff;
 }
@@ -384,7 +354,6 @@ header {
 .mycard:nth-child(5) p {
   border-color: #e6bfff;
 }
-
 .items-section .item-texts h3 {
   font-size: 60px;
   line-height: 70.4px;
@@ -399,11 +368,9 @@ header {
 .items-section .item-texts {
   padding-top: 100px;
 }
-
 .items-section .item-cards {
   padding-top: 100px;
 }
-
 .mur-luma-header {
   margin: 0 auto;
   padding: 0 auto;
@@ -434,7 +401,6 @@ header {
   line-height: 52px;
   letter-spacing: 1.2px;
 }
-
 .mur-luma-main {
   padding-top: 65px;
   gap: 90px;
@@ -458,18 +424,15 @@ header {
 .mur-luma-main .mur-luma-main-table .table-item:nth-child(2) p {
   padding-left: 40px;
 }
-
 .mur-luma-main .mur-luma-main-table .table-item:nth-child(3) p {
   padding-left: 52px;
 }
-
 .mur-luma-main .mur-luma-main-table a {
   background-color: #b4f5c8;
   width: 345px;
   height: 48px;
   border-radius: 4px;
 }
-
 .mur-luma-main .mur-luma-main-table .icon-div-tb {
   background-color: #00c27a;
   width: 48px;
@@ -559,7 +522,6 @@ header {
   letter-spacing: 0.6399999856948853px;
   text-align: center;
 }
-
 .big-btn-section a p {
   font-weight: 400;
   line-height: 195px;
@@ -576,7 +538,6 @@ header {
   border-left: #000000 solid 40px;
   background: #ffe146;
 }
-
 .footer-links {
   display: flex;
   justify-content: space-between;
@@ -598,7 +559,6 @@ footer .container {
 footer .footer {
   height: 600px;
 }
-
 .footer-links{
   font-size: 16px;
   line-height: 28px;
@@ -606,7 +566,6 @@ footer .footer {
 .footer-links ul li h4{
   padding-bottom: 20px;
 }
-
 .footer-links {
   padding-top: 60px;
 }
