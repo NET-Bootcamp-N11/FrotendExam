@@ -19,18 +19,18 @@
     />
   </head>
   <body>
-    <header>
+    <header class="shadow-lg p-3 mb-5 bg-white">
       <div class="container flex f-b header">
         <ul class="flex f-c">
-          <li><a href="#">Product</a></li>
-          <li><a href="#">Solutions</a></li>
-          <li><a href="#">Resources</a></li>
-          <li><a href="#">Pricing</a></li>
+          <li><a href="#tim">Product</a></li>
+          <li><a href="#cm">Solutions</a></li>
+          <li><a href="#ft">Resources</a></li>
+          <li><a href="#sap">Pricing</a></li>
         </ul>
         <div class="flex sign-btn f-c">
-          <a href="">Sign in</a>
+          <a href="login.html">Sign in</a>
           <div class="">
-            <a href="" class="btn btn-secondary btn-s">Sign up, free forever</a>
+            <a href="signuo.html" class="btn btn-secondary btn-s">Sign up, free forever</a>
           </div>
         </div>
       </div>
@@ -102,16 +102,16 @@
         </div>
       </section>
 
-      <section class="come-section">
+      <section id="cm" class="come-section">
         <div class="container">
           <div class="title">
             <p>Here’s how to</p>
           </div>
           <div class="come-body flex flex-column">
             <div class="come-content">
-              <div class="text diff flex f-b">
+              <div class="text hvr flex f-b">
                 <h3>Come up with ideas</h3>
-                <img src="/assets/images/plus.svg" alt="" />
+                <img onclick="ShowAlert()" src="/assets/images/plus.svg" alt="" />
               </div>
               <div class="img-content flex f-c">
                 <div class="text-box flex flex-column">
@@ -126,22 +126,31 @@
                   </p>
                   <a style="color: #fff" href="#">Use free template</a>
                 </div>
-                <img src="/assets/images/Frame.svg" alt="" />
+                <img src="/assets/images/Frame.svg" usemap="#image-map">
+
+                <map name="image-map">
+                    <area target="" alt="Mandy" title="Mandy" href="#" coords="286,253,183,230,175,221,170,213,190,221,174,232" shape="">
+                    <area target="" alt="Efrat" title="Efrat" href="#" coords="88,385,164,404,78,367,76,372,83,373,80,383" shape="">
+                    <area target="" alt="Valieri" title="Valieri" href="#" coords="370,373,463,393,363,357,361,366,373,365" shape="">
+                    <area target="" alt="Josh" title="Josh" href="#" coords="519,355,593,374,507,341,518,342,509,350,514,349" shape="">
+                    <area target="" alt="Zuri" title="Zuri" href="#" coords="548,228,610,246,536,214,545,217,540,223" shape="">
+                    <area target="" alt="Alex" title="Alex" href="#" coords="314,170,385,191,303,157,309,160,304,165" shape="">
+                </map>
               </div>
             </div>
-            <div class="text flex f-b">
+            <div class="text hvr flex f-b">
               <h3>Connect as a team</h3>
-              <img src="/assets/images/plus.svg" alt="" />
+              <img onclick="ShowAlert()" src="/assets/images/plus.svg" alt="" />
             </div>
 
-            <div class="text flex f-b">
+            <div class="text hvr flex f-b">
               <h3>Make a plan</h3>
               <img src="/assets/images/plus.svg" alt="" />
             </div>
 
-            <div class="text-last flex f-b">
+            <div class="text-last hvr flex f-b">
               <h3>Coordinate and align</h3>
-              <img src="/assets/images/plus.svg" alt="" />
+              <img onclick="ShowAlert()" src="/assets/images/plus.svg" alt="" />
             </div>
           </div>
           <div class="come-footer flex f-b">
@@ -162,7 +171,7 @@
         <div class="contain">
           <div class="desk-left">
             <img class="ibm" src="assets/images/ibm.svg" alt="" />
-            <img class="Names" src="assets/images/boozA.svg" alt="" />
+           <h4 class="Names">Booz | Alean | Homilton</h4>
             <img class="adsk" src="assets/images/autodesk.svg" alt="" />
           </div>
           <div class="desk-right">
@@ -184,7 +193,7 @@
         </div>
       </section>
 
-      <section class="items-section">
+      <section id="tim" class="items-section">
         <div class="container">
           <div class="item-texts flex f-b">
             <h3>For every kind of team</h3>
@@ -193,27 +202,42 @@
               specific needs.
             </p>
           </div>
-          <div class="item-cards flex f-b">
-            <div class="mycard">
-              <img src="/assets/images/cloud.svg" alt="" />
-              <p>Consulting</p>
-            </div>
-            <div class="mycard">
-              <img src="/assets/images/chair.svg" alt="" />
-              <p>Executive</p>
-            </div>
-            <div class="mycard">
-              <img src="/assets/images/valids.svg" alt="" />
-              <p>Product</p>
-            </div>
-            <div class="mycard">
-              <img src="/assets/images/basket.svg" alt="" />
-              <p>Sales</p>
-            </div>
-            <div class="mycard">
-              <img src="assets/images/serv.svg" alt="" />
-              <p>Technology</p>
-            </div>
+          <marquee behavior="" direction="" scrollmount="50">
+            <div class="item-cards flex f-b">
+              <a href="#">
+                <div class="mycard">
+                  <img src="/assets/images/cloud.svg" alt="" />
+                  <p>Consulting</p>
+                </div>
+              </a>
+              <a href="#">
+
+                <div class="mycard">
+                  <img src="/assets/images/chair.svg" alt="" />
+                  <p>Executive</p>
+                </div>
+              </a>
+              <a href="#">
+                
+                <div class="mycard">
+                  <img src="/assets/images/valids.svg" alt="" />
+                  <p>Product</p>
+                </div>
+              </a>
+              <a href="#">
+                
+                <div class="mycard">
+                  <img src="/assets/images/basket.svg" alt="" />
+                  <p>Sales</p>
+                </div>
+              </a>
+              <a href="#">
+                <div class="mycard">
+                  <img src="assets/images/serv.svg" alt="" />
+                  <p>Technology</p>
+                </div>
+              </a>
+          </marquee>
           </div>
         </div>
       </section>
@@ -269,7 +293,7 @@
         </div>
       </section>
 
-      <section class="sap-section">
+      <section id="sap" class="sap-section">
         <div class="container">
           <div class="text-side">
             <h1>
@@ -299,7 +323,7 @@
         </div>
       </section>
 
-      <section class="hand">
+      <section id="hnd" class="hand">
         <p class="p">Enterprise on lock</p>
         <h1 class="h1">Leading enterprise collaboration for more than a decade</h1>
         <div class="boxes">
@@ -347,7 +371,7 @@
         </div>
       </section>
     </main>
-    <footer class="site-footer">
+    <footer  id="ft" class="site-footer">
       <div class="container">
         <div class="footer">
           <div class="footer-links">
@@ -428,5 +452,6 @@
         </div>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

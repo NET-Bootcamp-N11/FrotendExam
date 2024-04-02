@@ -5,6 +5,9 @@
   box-sizing: border-box;
   font-family: Roboto;
 }
+body{
+  scroll-behavior: smooth;
+}
 .f-c {
   align-items: center;
   justify-content: center;
@@ -25,7 +28,11 @@
 }
 .sign-btn {
   gap: 50px;
+
 }
+
+
+
 .btn-s {
   background-color: #424242 !important;
   border-radius: 4px !important;
@@ -37,9 +44,9 @@
   width: 100%;
 }
 header {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #DDDDDD;
   width: 100%;
-  position: fixed;
+  z-index: 9;
   top: 0;
   background-color: white;
   align-items: center;
@@ -48,6 +55,9 @@ header {
   margin-top: 120px;
   width: 100%;
 }
+
+
+
 .guesswork-section {
   background-image: url("/assets/images/image1.svg");
   background-size: 600px 400px;
@@ -70,6 +80,14 @@ header {
   height: 48px;
   border-radius: 4px;
 }
+.icon-div {
+  transition: transform 0.5s;
+}
+
+.icon-div.move-right {
+  transform: translateX(393%);
+}
+
 .guesswork a p {
   text-align: center;
   display: flex;
@@ -192,6 +210,9 @@ header {
 .diff {
   border: 0 !important;
   margin-bottom: 0px;
+}
+.hvr img:hover{
+  cursor: pointer;
 }
 .come-section .come-body .text-last h3 {
   letter-spacing: 3.84px;
